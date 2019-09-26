@@ -18,6 +18,7 @@ public class Compte {
 			
 	}
 	public double crediter(double montant) {
+		if (montant>0)
 		return solde+=montant;
 			
 	}
@@ -26,7 +27,9 @@ public class Compte {
 		
 	}
 	public void virement(double montant) {
+		if (montant>0) {
 		solde+=montant;
+		}
 		
 	}
 	public double initialisation(double montant) {

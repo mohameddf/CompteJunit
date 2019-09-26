@@ -15,7 +15,7 @@ public class CompteTest{
 		assertEquals(50000, c.getSolde(),1e-8);
 	}
 	public void testcrediter() throws Exception{
-		Compte c=new Compte(50000);
+		Compte c=new Compte(0000);
 		c.crediter(100000);
 		assertEquals(c.getSolde(),1e-8);
 	}
